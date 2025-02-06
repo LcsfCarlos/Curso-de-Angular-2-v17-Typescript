@@ -1,7 +1,7 @@
 import { AsyncPipe, CurrencyPipe, DatePipe, DecimalPipe, JsonPipe, LowerCasePipe, PercentPipe, registerLocaleData, UpperCasePipe } from '@angular/common';
 import { Component, LOCALE_ID, signal } from '@angular/core';
 import { delay, Observable, of } from 'rxjs';
-import { CustomStringPipe } from '../../../pipes/custom-string.pipe';
+import { CustomStringPipe } from '@pipes/custom-string.pipe';
 
 
 
